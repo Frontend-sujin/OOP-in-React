@@ -1,7 +1,6 @@
-/** Bad Example 1!! 추상화 잘 못 지킨 예제 **/
-
 import { useEffect, useState } from "react";
 
+/** Bad Example 1!! 추상화 잘 못 지킨 예제 **/
 // Case 1. 여러 컴포넌트들의 공통 기능을 추출하지 않은 경우
 const ConfigButton = () => {
   return (
